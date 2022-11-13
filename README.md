@@ -1,3 +1,35 @@
+# My Solution
+
+My solution for this challenge using python is to open the json file and load it,
+searching for items based on a key and quick access time is an important requirement,
+unique keys are available for the data we want to store, and that leaves us to 
+iterate through the items to compaire the data with the one we're 
+searching for .Once we get it (product id) all we have left to do is to append in a list 
+the other items in the json file that describe the same product and then return the list
+
+# How to get it to work
+
+1.Fill the _id with the key used as product id 
+  in the json file
+2.Fill the file_path with the json file path 
+  (Preferably downloaded in the same folder/repository)
+3.enter the id of the product in id_s in the main 
+
+```
+{
+    def find_item_list(item_id):
+        _id = '_id'
+        file_path = '' 
+}
+```
+
+```
+{
+    id_s=""
+    print(find_item_list(id_s))
+}
+```
+
 # ClickN Challenge
 
 ClickN Challenge for matching algorithm
