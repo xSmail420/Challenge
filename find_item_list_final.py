@@ -27,5 +27,8 @@ def find_item_list(item_id):
 
     return item_list
 
-id_s=""
-print(find_item_list(id_s))
+def main():
+    id_s=""
+    print(find_item_list(id_s))
+
+main()
